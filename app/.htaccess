@@ -1,0 +1,66 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+#RewriteRule ^([a-z]+)/?$ $1.php [NC]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+#RewriteRule ^([a-z]+)/?$ $1.html [NC]
+
+#Index
+RewriteRule ^index/(.*)$ index.php?id=$1 [L] 
+	
+#Usuarios
+RewriteRule ^nuevo-usuario/(.*)$ nuevo-usuario.php?id=$1 [L]
+RewriteRule ^lista-usuarios/(.*)$ lista-usuarios.php?id=$1 [L]
+RewriteRule ^actualizar-usuario/(.*)$ actualizar-usuario.php?id=$1 [L]
+RewriteRule ^cambiar-password/(.*)$ cambiar-password.php?id=$1 [L]
+
+#Alimentos
+RewriteRule ^lista-alimentos/(.*)$ lista-alimentos.php?id=$1 [L]
+RewriteRule ^lista-alimentos-desactivados/(.*)$ lista-alimentos-desactivados.php?id=$1 [L]
+RewriteRule ^editar-alimento/(.*)$ editar-alimento.php?id=$1 [L]
+RewriteRule ^ver-alimento/(.*)$ ver-alimento.php?id=$1 [L]
+
+#Recetas
+RewriteRule ^ver-receta/(.*)$ ver-receta.php?id=$1 [L]
+RewriteRule ^editar-receta/(.*)$ editar-receta.php?id=$1 [L]
+
+#Dieta
+RewriteRule ^generar-dieta/(.*)$ generar-dieta.php?id=$1 [L]
+
+#Ticket
+RewriteRule ^ticket/(.*)$ ticket.php?id=$1 [L]
+RewriteRule ^crear-ticket/(.*)$ crear-ticket.php?id=$1 [L]
+
+#Clientes
+RewriteRule ^editar-cliente/(.*)$ editar-cliente.php?id=$1 [L]
+
+#Reglas
+RewriteRule ^editar-regla/(.*)$ editar-regla.php?id=$1 [L]
+
+#Dietas
+RewriteRule ^configurar-dieta/(.*)$ configurar-dieta.php?id=$1 [L]
+
+#Plantillas
+RewriteRule ^editar-plantilla/(.*)$ editar-plantilla.php?id=$1 [L]
+
+#PDF
+RewriteRule ^dieta-pdf/(.*)$ dieta-pdf.php?id=$1 [L]
+RewriteRule ^pdf/(.*)$ pdf.php?id=$1 [L]
+RewriteRule ^pdf/index/(.*)$ pdf/index.php?id=$1 [L]
+
+#Correo
+RewriteRule ^enviar-correo-dieta-estandar/(.*)$ enviar-correo-dieta-estandar.php?id=$1 [L]
+
+#Asistente
+RewriteRule ^asistente-paso-2/(.*)$ asistente-paso-2.php?id=$1 [L]
+RewriteRule ^asistente-paso-3/(.*)$ asistente-paso-3.php?id=$1 [L]
+RewriteRule ^crear-medicion-asistente/(.*)$ crear-medicion-asistente.php?id=$1 [L]
+
+#Dieta Cliente
+RewriteRule ^dietas-cliente/(.*)$ dietas-cliente.php?id=$1 [L]

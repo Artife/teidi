@@ -1,0 +1,155 @@
+/* Agregar variables 
+						
+						public $nombre;
+						public $preparacion;
+						public $id_plato;
+						public $fijo;
+						public $peso;
+						public $kcal;
+						public $hidratos;
+						public $grasa;
+						public $proteinas;
+						public $pc_porcentaje;
+						public $agua_g;
+						public $cal_kcal;
+
+						public $prot_g;
+
+						public $hc_g;
+
+						public $grasa_g;
+
+						public $satur_g;
+
+						public $mono_g;
+
+						public $poli_g;
+
+						public $col_mg;
+
+						public $fibra_g;
+
+						public $sodio_mg;
+
+						public $potasio_mg;
+
+						public $magnesio_mg;
+
+						public $calcio_mg;
+
+						public $fosf_mg;
+
+						public $hierro_mg;
+
+						public $cloro_mg;
+
+						public $cinc_mg;
+
+						public $cobre_mg;
+
+						public $manganeso_mg;
+
+						public $cromo_mg;
+
+						public $cobalto_mg;
+
+						public $molibde_mg;
+
+						public $yodo_mg;
+
+						public $fluor_mg;
+
+						public $butirico_c4_0;
+
+						public $caproico_c6_0;
+
+						public $caprilico_c8_0;
+
+						public $caprico_c10_0;
+
+						public $laurico_c12_0;
+
+						public $miristico_c14_0;
+
+						public $c15_0;
+
+						public $c15_00;
+
+						public $palmitico_c16_0;
+
+						public $c17_0;
+
+						public $c17_00;
+
+						public $estearico_c18_0;
+
+						public $araquidi_c20_0;
+
+						public $behenico_c22_0;
+
+						public $miristol_c14_1;
+
+						public $palmitole_c16_1;
+
+						public $oleico_c18_1;
+
+						public $eicoseno_c20_1;
+
+						public $c22_1;
+
+						public $linoleico_c18_2;
+
+						public $linoleni_c18_3;
+
+						public $c18_4;
+
+						public $ara_ico_c20_4;
+
+						public $c20_5;
+
+						public $c22_5;
+
+						public $c22_6;
+
+						public $otrosatur0;
+
+						public $otroinsat0;
+
+						public $omega3_0;
+
+						public $etanol0;
+
+						public $vit_a;
+
+						public $carotenos;
+
+						public $tocoferol;
+
+						public $vit_d;
+
+						public $vit_b1;
+
+						public $vit_b2;
+
+						public $vit_b6;
+
+						public $niacina;
+
+						public $ac_panto;
+
+						public $biotina;
+
+						public $folico;
+
+						public $b12;
+
+						public $vit_c;
+
+						public $purinas;
+
+						public $vit_k;
+
+						public $vit_e;
+
+						public $oxalico;
+						*/	
